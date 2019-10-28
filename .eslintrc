@@ -1,0 +1,48 @@
+{
+  "extends": ["airbnb", "prettier", "plugin:node/recommended"],
+
+  "plugins": ["prettier"],
+
+  "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": "warn",
+    "no-console": "warn",
+    "func-names": "off",
+    "no-process-exit": "off",
+    "object-shorthand": "off",
+    "class-methods-use-this": "off",
+    "no-redeclare": "error",
+    "no-extend-native": "error",
+    "comma-dangle": "off",
+    "no-constant-condition": "error",
+    "no-empty": "error",
+    "curly": "error",
+    "default-case": "error",
+    "dot-notation": "error",
+    "no-else-return": "error",
+    "no-multi-spaces": "error",
+    "keyword-spacing": ["error", { "after": true }],
+    "space-before-blocks": [1, "always"],
+    "space-before-function-paren": [
+      1,
+      { "anonymous": "always", "named": "never" }
+    ],
+    "space-unary-ops": [1, { "words": true, "nonwords": false }],
+    "spaced-comment": [1, "always"],
+    "object-curly-spacing": ["error", "never"],
+    "array-bracket-spacing": ["error", "never"],
+    "computed-property-spacing": ["error", "never"],
+    "no-unreachable": "error",
+    "no-sparse-arrays": "error",
+    "no-empty-function": "error",
+    "no-lone-blocks": "error",
+    "strict": ["error", "function"],
+    "block-spacing": "error",
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "eol-last": ["error", "always"],
+    "comma-style": ["error", "last"],
+    "max-len": ["error", { "code": 80 }],
+    "prefer-const": "error",
+    "arrow-spacing": "error"
+  }
+}
